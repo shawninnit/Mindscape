@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindSpace - Home</title>
+</head>
+<body>
+    <h1>Welcome to MindSpace</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('show_resources') }}">Mental Health Resources</a></li>
+            <li><a href="{{ url_for('mindfulness') }}">Mindfulness Practices</a></li>
+            <li><a href="{{ url_for('support') }}">Peer Support Groups</a></li>
+            <li><a href="{{ url_for('add_resource') }}">Add New Resource</a></li>
+            <li><a href="{{ url_for('add_group') }}">Add New Support Group</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
