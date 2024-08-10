@@ -1,0 +1,13 @@
+1.Flask Setup:
+The Flask class is imported, and an instance of this class is created. This instance (app) will be the WSGI application.
+2.Routes:
+
+@app.route('/'): The home page route, rendering a basic homepage template.
+@app.route('/resources'): A route to display a list of mental health resources.
+@app.route('/mindfulness'): A route to a page dedicated to mindfulness practices.
+@app.route('/support'): A route to display available peer support groups.
+@app.route('/add_resource'): A route to add a new resource (both GET and POST methods are supported).
+@app.route('/add_group'): A route to add a new support group.
+3.Templates:
+
+You’ll need HTML templates (home.html, resources.html, mindfulness.html, support.html, add_resource.html, and add_group.html) stored in a templates directory. These templates will render the respective content when each route is accessed.
